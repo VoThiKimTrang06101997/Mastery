@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery</title>
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="header" id="home">
+        <div class="header__container">
+            <a href="tel:+142 5897555"><i class="fa fa-phone"></i>+142 5897555</a>
+            <a href="mailto:info@example.com"><i class="fa fa-envelope"></i>info@example.com</a>
+            <button>Apply Now</button>
+        </div>
+    </div>
+
+    <!-- Thẻ xóa ảnh hưởng của Float -->
+    <div class="clear"></div>
+
+    <!-- NAV-->
+    <div class="nav">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <i class="far fa-edit"></i>
+                <span> <b>Mastery</b> </span>
+            </div>
+            <div class="nav__list">
+                <ul>
+                    <li><a href="#home" class="nav__item--actived">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div class="carousel" id="about">
+        <div class="carousel__content">
+            <!-- carousel__item: thêm CSS khoảng cách, giúp các khối item vuông nằm trên cùng 1 hàng -->
+            <div class="carousel__item">
+                <!-- carousel__text: chứa nền màu trắng, chứa nội dung chi tiết -->
+                <div class="carousel__text">
+                    <i class="fa fa-laptop"></i>
+                    <h3>Learn Courses Online</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, ratione?</p>
+                    <button> <b>Read more</b> </button>
+                </div>
+            </div>
+            <div class="carousel__item">
+                <!-- carousel__text: chứa nền màu trắng, chứa nội dung chi tiết -->
+                <div class="carousel__text">
+                    <i class="fa fa-users"></i>
+                    <h3>Highly Qualified Teacher</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, ratione?</p>
+                    <button> <b>Read more</b> </button>
+                </div>
+            </div>
+            <div class="carousel__item">
+                <!-- carousel__text: chứa nền màu trắng, chứa nội dung chi tiết -->
+                <div class="carousel__text">
+                    <i class="fa fa-book"></i>
+                    <h3>Book Library & Story</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, ratione?</p>
+                    <button> <b>Read more</b> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- INTRODUCTION -->
+    <div class="introduction">
+        <div class="introduction__container">
+            <div class="introduction__item">
+                <div class="introduction__text">
+                    <h3>Welcome to our Campus</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum aut nam eum aliquid modi
+                        obcaecati, repellat earum maxime praesentium! Sint.</p> <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, dolore. Obcaecati adipisci quae
+                        voluptatem pariatur dicta voluptates ea aperiam enim.</p> <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="introduction__item">
+                <div class="introduction__text">
+                    <img src="./images/g1.jpg" alt="">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- FIELDS-->
+    <div class="field" id="service">
+        <div class="field__container">
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fa fa-male"></i>
+                    <br>
+                    <p>Socioligy</p>
+                </div>
+            </div>
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fa fa-suitcase"></i>
+                    <br>
+                    <p>Business</p>
+                </div>
+            </div>
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fas fa-code"></i>
+                    <br>
+                    <p>Web dev</p>
+                </div>
+            </div>
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fas fa-flask"></i>
+                    <br>
+                    <p>Science</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="field__container">
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="far fa-money-bill-alt"></i>
+                    <br>
+                    <p>Economics</p>
+                </div>
+            </div>
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fab fa-gg"></i>
+                    <br>
+                    <p>Biology</p>
+                </div>
+            </div>
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fas fa-tv"></i>
+                    <br>
+                    <p>Computing</p>
+                </div>
+            </div>
+            <div class="field__item">
+                <div class="field__text">
+                    <i class="fas fa-mouse-pointer"></i>
+                    <br>
+                    <p>Web design</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- Thẻ xóa ảnh hưởng của Float -->
+    <div class="clear"></div>
+
+
+    <!-- INFORMATION-->
+    <div class="information">
+        <div class="information__container">
+            <div class="information__item">
+                <p class="information__number"> <b>60</b> </p>
+                <p class="information__description">PROFESSIONAL INSTRUCTORS</p>
+            </div>
+            <div class="information__item">
+                <p class="information__number"> <b>18</b> </p>
+                <p class="information__description">NEW COURSE EVERY YEAR</p>
+            </div>
+            <div class="information__item">
+                <p class="information__number"> <b>34</b> </p>
+                <p class="information__description">LIVE SECTION EVERY MONTH</p>
+            </div>
+            <div class="information__item">
+                <p class="information__number"> <b>20</b> </p>
+                <p class="information__description">REGISTERED STUDENTS</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- Thẻ xóa ảnh hưởng của Float -->
+        <div class="clear"></div>
+    </div>
+
+    <!-- REVIEWS -->
+    <div class="reviews" id="blog">
+        <div class="reviews__container">
+            <div class="reviews__overlay"></div>
+            <div class="reviews__content">
+                <div class="reviews__items1">
+                    <div class="reviews__text">
+                        <div id="reviews__h2">
+                            <h2>Hear What our students have to say</h2>
+                        </div> <br>
+                        <div id="reviews__span"><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo esse
+                                error optio harum unde
+                                ratione, labore earum nisi minus obcaecati reiciendis neque magnam porro consequatur
+                                quod.
+                                Tempora sint perferendis vitae.</span> <br>
+                            <br>
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima a incidunt
+                                laudantium
+                                perferendis magni eligendi doloribus, expedita recusandae ducimus.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__items2">
+                    <div class="reviews__text">
+                        <img src="./images/c3.jpg" alt="">
+                        <div id="reviews1">
+                            <span> <b>Jessey Rosey</b> </span>
+                        </div>
+                        <div id="reviews2">
+                            <span> <b>Student</b> </span>
+                        </div>
+                        <br>
+                        <div id="reviews3">
+                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias excepturi illo vitae
+                                quo
+                                minima officia corporis maiores quas, distinctio modi error adipisci quisquam mollitia
+                                atque!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Thẻ xóa ảnh hưởng của Float -->
+        <div class="clear"></div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="news">
+        <div class="news__container">
+            <div class="news__item">
+                <h3>Latest Posts</h3>
+                <div class="news__text">
+                    <div class="news__text--item news__border">
+                        <img src="./images/g9.jpg" alt="image">
+                        <h4>Summer course starts</h4>
+                        <p class="news__date">April 25 , 2020</p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="news__text--item news__border">
+                        <img src="./images/g10.jpg" alt="image">
+                        <h4>About Artificial Intelligence</h4>
+                        <p class="news__date">March 25 , 2020</p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                    </div>
+                    <div class="news__text--item">
+                        <img src="./images/g8.jpg" alt="image">
+                        <h4>New Exam Schedules</h4>
+                        <p class="news__date">February 25 , 2020</p>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <button> <b>View All</b> </button>
+            </div>
+
+            <div class="news__item">
+                <h3>Upcoming Events</h3>
+                <div class="news__text">
+                    <div class="news__tour">
+                        <div class="news__date--top">
+                            <h4>20</h4>
+                            <p>Nov</p>
+                        </div>
+                        <p>2020</p>
+                    </div>
+                    <div class="news_desc">
+                        <h4>Lorem ipsum dolor sit.</h4> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, laudantium dolores
+                            voluptatibus facere placeat labore iusto obcaecati quod fuga vel.</p>
+                        <div class="news__desc--time">
+                            <span>07:00-10:00</span>
+                            <p>Melbourne Australia</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="news__text">
+                    <div class="news__tour">
+                        <div class="news__date--top">
+                            <h4>20</h4>
+                            <p>Nov</p>
+                        </div>
+                        <p>2020</p>
+                    </div>
+                    <div class="news__desc">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, laudantium dolores
+                            voluptatibus facere placeat labore iusto obcaecati quod fuga vel.</p>
+                        <div class="news__desc--time">
+                            <span>07:00-10:00</span>
+                            <p>Melbourne Australia</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <button> <b>View All</b> </button>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer" id="contact">
+        <div class="footer__container">
+            <div class="footer__item">
+                <div class="footer__column">
+                    <h3>Contact us</h3>
+                    <p><i class="fa fa-map-marker-alt"></i> Estate Business, #32841 block,#221DRS
+                        real estate business building, UK
+                    </p>
+                    <p><i class="fas fa-phone-alt"></i>+(21)-255-999-8888</p>
+                    <p><i class="fa fa-envelope-open-text"></i>
+                        corporate-mail@support.com</p>
+                </div>
+                <div class="footer__column">
+                    <h3>Featured Links</h3>
+                    <ul>
+                        <li>Graduation</li>
+                        <li>Admissions</li>
+                        <li>Book Store</li>
+                        <li>Internaltional</li>
+                        <li>Courses</li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="footer__copyright">
+                <span><i class="far fa-copyright"></i> 2020 Mastery.All this reserved</span>
+                <span class="footer__floatright">Term of service</span>
+                <span class="footer__floatright">Privacy policy</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
